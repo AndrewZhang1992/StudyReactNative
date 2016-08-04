@@ -20,7 +20,7 @@
    
     NSString *urlString = @"http://localhost:8081/index.ios.bundle";
     RCTRootView *view = [[RCTRootView alloc] initWithBundleURL:[NSURL URLWithString:urlString] moduleName:@"LoveApp" initialProperties:nil launchOptions:nil];
-    view.frame = CGRectMake(30, 50, 300, 20);
+    view.frame = CGRectMake(30, 50, 350, 350);
     view.center = self.view.center;
     [self.view addSubview:view];
 }
