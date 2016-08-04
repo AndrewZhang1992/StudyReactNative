@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B07AC6D01D534A4700F7914F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B07AC6CF1D534A4700F7914F /* main.m */; };
+		B07AC6D31D534A4700F7914F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B07AC6D21D534A4700F7914F /* AppDelegate.m */; };
+		B07AC6D61D534A4700F7914F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B07AC6D51D534A4700F7914F /* ViewController.m */; };
+		B07AC6D91D534A4700F7914F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07AC6D71D534A4700F7914F /* Main.storyboard */; };
+		B07AC6DB1D534A4700F7914F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07AC6DA1D534A4700F7914F /* Assets.xcassets */; };
+		B07AC6DE1D534A4700F7914F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07AC6DC1D534A4700F7914F /* LaunchScreen.storyboard */; };
+		B07AC6E91D534A4700F7914F /* LoveAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B07AC6E81D534A4700F7914F /* LoveAppTests.m */; };
+		B07AC6F41D534A4700F7914F /* LoveAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B07AC6F31D534A4700F7914F /* LoveAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B07AC6E51D534A4700F7914F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B07AC6C31D534A4700F7914F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B07AC6CA1D534A4700F7914F;
+			remoteInfo = LoveApp;
+		};
+		B07AC6F01D534A4700F7914F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B07AC6C31D534A4700F7914F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B07AC6CA1D534A4700F7914F;
+			remoteInfo = LoveApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B07AC6CB1D534A4700F7914F /* LoveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07AC6CF1D534A4700F7914F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B07AC6D11D534A4700F7914F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B07AC6D21D534A4700F7914F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B07AC6D41D534A4700F7914F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B07AC6D51D534A4700F7914F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B07AC6D81D534A4700F7914F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B07AC6DA1D534A4700F7914F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B07AC6DD1D534A4700F7914F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B07AC6DF1D534A4700F7914F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B07AC6E41D534A4700F7914F /* LoveAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07AC6E81D534A4700F7914F /* LoveAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoveAppTests.m; sourceTree = "<group>"; };
+		B07AC6EA1D534A4700F7914F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B07AC6EF1D534A4700F7914F /* LoveAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07AC6F31D534A4700F7914F /* LoveAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoveAppUITests.m; sourceTree = "<group>"; };
+		B07AC6F51D534A4700F7914F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B07AC6C81D534A4700F7914F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07AC6E11D534A4700F7914F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07AC6EC1D534A4700F7914F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B07AC6C21D534A4700F7914F = {
+			isa = PBXGroup;
+			children = (
+				B07AC6CD1D534A4700F7914F /* LoveApp */,
+				B07AC6E71D534A4700F7914F /* LoveAppTests */,
+				B07AC6F21D534A4700F7914F /* LoveAppUITests */,
+				B07AC6CC1D534A4700F7914F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B07AC6CC1D534A4700F7914F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B07AC6CB1D534A4700F7914F /* LoveApp.app */,
+				B07AC6E41D534A4700F7914F /* LoveAppTests.xctest */,
+				B07AC6EF1D534A4700F7914F /* LoveAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B07AC6CD1D534A4700F7914F /* LoveApp */ = {
+			isa = PBXGroup;
+			children = (
+				B07AC6D11D534A4700F7914F /* AppDelegate.h */,
+				B07AC6D21D534A4700F7914F /* AppDelegate.m */,
+				B07AC6D41D534A4700F7914F /* ViewController.h */,
+				B07AC6D51D534A4700F7914F /* ViewController.m */,
+				B07AC6D71D534A4700F7914F /* Main.storyboard */,
+				B07AC6DA1D534A4700F7914F /* Assets.xcassets */,
+				B07AC6DC1D534A4700F7914F /* LaunchScreen.storyboard */,
+				B07AC6DF1D534A4700F7914F /* Info.plist */,
+				B07AC6CE1D534A4700F7914F /* Supporting Files */,
+			);
+			path = LoveApp;
+			sourceTree = "<group>";
+		};
+		B07AC6CE1D534A4700F7914F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B07AC6CF1D534A4700F7914F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B07AC6E71D534A4700F7914F /* LoveAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B07AC6E81D534A4700F7914F /* LoveAppTests.m */,
+				B07AC6EA1D534A4700F7914F /* Info.plist */,
+			);
+			path = LoveAppTests;
+			sourceTree = "<group>";
+		};
+		B07AC6F21D534A4700F7914F /* LoveAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B07AC6F31D534A4700F7914F /* LoveAppUITests.m */,
+				B07AC6F51D534A4700F7914F /* Info.plist */,
+			);
+			path = LoveAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B07AC6CA1D534A4700F7914F /* LoveApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B07AC6F81D534A4700F7914F /* Build configuration list for PBXNativeTarget "LoveApp" */;
+			buildPhases = (
+				B07AC6C71D534A4700F7914F /* Sources */,
+				B07AC6C81D534A4700F7914F /* Frameworks */,
+				B07AC6C91D534A4700F7914F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoveApp;
+			productName = LoveApp;
+			productReference = B07AC6CB1D534A4700F7914F /* LoveApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B07AC6E31D534A4700F7914F /* LoveAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B07AC6FB1D534A4700F7914F /* Build configuration list for PBXNativeTarget "LoveAppTests" */;
+			buildPhases = (
+				B07AC6E01D534A4700F7914F /* Sources */,
+				B07AC6E11D534A4700F7914F /* Frameworks */,
+				B07AC6E21D534A4700F7914F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B07AC6E61D534A4700F7914F /* PBXTargetDependency */,
+			);
+			name = LoveAppTests;
+			productName = LoveAppTests;
+			productReference = B07AC6E41D534A4700F7914F /* LoveAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B07AC6EE1D534A4700F7914F /* LoveAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B07AC6FE1D534A4700F7914F /* Build configuration list for PBXNativeTarget "LoveAppUITests" */;
+			buildPhases = (
+				B07AC6EB1D534A4700F7914F /* Sources */,
+				B07AC6EC1D534A4700F7914F /* Frameworks */,
+				B07AC6ED1D534A4700F7914F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B07AC6F11D534A4700F7914F /* PBXTargetDependency */,
+			);
+			name = LoveAppUITests;
+			productName = LoveAppUITests;
+			productReference = B07AC6EF1D534A4700F7914F /* LoveAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B07AC6C31D534A4700F7914F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Andrew;
+				TargetAttributes = {
+					B07AC6CA1D534A4700F7914F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B07AC6E31D534A4700F7914F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B07AC6CA1D534A4700F7914F;
+					};
+					B07AC6EE1D534A4700F7914F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B07AC6CA1D534A4700F7914F;
+					};
+				};
+			};
+			buildConfigurationList = B07AC6C61D534A4700F7914F /* Build configuration list for PBXProject "LoveApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B07AC6C21D534A4700F7914F;
+			productRefGroup = B07AC6CC1D534A4700F7914F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B07AC6CA1D534A4700F7914F /* LoveApp */,
+				B07AC6E31D534A4700F7914F /* LoveAppTests */,
+				B07AC6EE1D534A4700F7914F /* LoveAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B07AC6C91D534A4700F7914F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07AC6DE1D534A4700F7914F /* LaunchScreen.storyboard in Resources */,
+				B07AC6DB1D534A4700F7914F /* Assets.xcassets in Resources */,
+				B07AC6D91D534A4700F7914F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07AC6E21D534A4700F7914F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07AC6ED1D534A4700F7914F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B07AC6C71D534A4700F7914F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07AC6D61D534A4700F7914F /* ViewController.m in Sources */,
+				B07AC6D31D534A4700F7914F /* AppDelegate.m in Sources */,
+				B07AC6D01D534A4700F7914F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07AC6E01D534A4700F7914F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07AC6E91D534A4700F7914F /* LoveAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07AC6EB1D534A4700F7914F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07AC6F41D534A4700F7914F /* LoveAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B07AC6E61D534A4700F7914F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B07AC6CA1D534A4700F7914F /* LoveApp */;
+			targetProxy = B07AC6E51D534A4700F7914F /* PBXContainerItemProxy */;
+		};
+		B07AC6F11D534A4700F7914F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B07AC6CA1D534A4700F7914F /* LoveApp */;
+			targetProxy = B07AC6F01D534A4700F7914F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B07AC6D71D534A4700F7914F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B07AC6D81D534A4700F7914F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B07AC6DC1D534A4700F7914F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B07AC6DD1D534A4700F7914F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B07AC6F61D534A4700F7914F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B07AC6F71D534A4700F7914F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B07AC6F91D534A4700F7914F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoveApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Andrew.LoveApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B07AC6FA1D534A4700F7914F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoveApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Andrew.LoveApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B07AC6FC1D534A4700F7914F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoveAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Andrew.LoveAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveApp.app/LoveApp";
+			};
+			name = Debug;
+		};
+		B07AC6FD1D534A4700F7914F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoveAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Andrew.LoveAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveApp.app/LoveApp";
+			};
+			name = Release;
+		};
+		B07AC6FF1D534A4700F7914F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoveAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Andrew.LoveAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoveApp;
+			};
+			name = Debug;
+		};
+		B07AC7001D534A4700F7914F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoveAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Andrew.LoveAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoveApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B07AC6C61D534A4700F7914F /* Build configuration list for PBXProject "LoveApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07AC6F61D534A4700F7914F /* Debug */,
+				B07AC6F71D534A4700F7914F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B07AC6F81D534A4700F7914F /* Build configuration list for PBXNativeTarget "LoveApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07AC6F91D534A4700F7914F /* Debug */,
+				B07AC6FA1D534A4700F7914F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B07AC6FB1D534A4700F7914F /* Build configuration list for PBXNativeTarget "LoveAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07AC6FC1D534A4700F7914F /* Debug */,
+				B07AC6FD1D534A4700F7914F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B07AC6FE1D534A4700F7914F /* Build configuration list for PBXNativeTarget "LoveAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B07AC6FF1D534A4700F7914F /* Debug */,
+				B07AC7001D534A4700F7914F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B07AC6C31D534A4700F7914F /* Project object */;
+}
