@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RCTRootView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+   
+    NSString *urlString = @"http://localhost:8081/index.ios.bundle";
+    RCTRootView *view = [[RCTRootView alloc] initWithBundleURL:[NSURL URLWithString:urlString] moduleName:@"LoveApp" initialProperties:nil launchOptions:nil];
+    view.frame = CGRectMake(30, 50, 300, 20);
+    view.center = self.view.center;
+    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning {

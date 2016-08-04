@@ -1,2 +1,5 @@
 pod 'React'
 pod 'React/RCTText'
+pod 'React/RCTWebSocket'
+pod 'React/RCTNetwork'
+pod 'React/RCTImage'
